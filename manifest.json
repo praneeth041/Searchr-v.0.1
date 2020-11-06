@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "SearchR!",
+    "description": "This extension will allow the users to search using Google, Bing, Youtube, LinkedIn,etc. anytime by clickng on the extenson.",
+    "version": "0.1",
+
+    "browser_action": {
+     "default_icon": "favion.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
